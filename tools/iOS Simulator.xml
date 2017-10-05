@@ -1,0 +1,9 @@
+<toolSet name="iOS Simulator">
+  <tool name="iOS Simulator" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/Applications/Open iOS simulator.app" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/Applications" />
+    </exec>
+  </tool>
+</toolSet>
