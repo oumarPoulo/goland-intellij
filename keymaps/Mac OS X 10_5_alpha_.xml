@@ -2,33 +2,8 @@
   <action id="$LRU">
     <keyboard-shortcut first-keystroke="ctrl meta p" />
   </action>
-  <action id="ActivateFavoritesToolWindow">
-    <keyboard-shortcut first-keystroke="meta 2" />
-    <keyboard-shortcut first-keystroke="alt e_with_acute" />
-  </action>
-  <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="meta 1" />
-    <keyboard-shortcut first-keystroke="alt ampersand" />
-  </action>
-  <action id="ActivateRunToolWindow">
-    <keyboard-shortcut first-keystroke="meta 4" />
-    <keyboard-shortcut first-keystroke="alt quote" />
-  </action>
-  <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="meta 7" />
-    <keyboard-shortcut first-keystroke="alt e_with_grave" />
-  </action>
-  <action id="ActivateTODOToolWindow">
-    <keyboard-shortcut first-keystroke="meta 6" />
-    <keyboard-shortcut first-keystroke="alt #10000a7" />
-  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
-  </action>
-  <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="meta 9" />
-    <keyboard-shortcut first-keystroke="shift meta 9" />
-    <keyboard-shortcut first-keystroke="alt c_with_cedilla" />
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
@@ -48,19 +23,11 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
-  <action id="DuplicatesForm.SendToLeft" />
-  <action id="DuplicatesForm.SendToRight" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="ctrl meta p" />
-  </action>
-  <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="shift meta alt up" />
-  </action>
-  <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="shift meta alt down" />
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -79,7 +46,6 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
-  <action id="FileChooser.GotoHome" />
   <action id="ForceStepInto">
     <keyboard-shortcut first-keystroke="shift alt f11" />
   </action>
