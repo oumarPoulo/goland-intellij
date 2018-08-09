@@ -1,0 +1,22 @@
+<templateSet group="commit">
+  <template name="smy" value="$FEATURE$$FEATURE_ID$ $TRANSITION$#time $TIME$$UNIT$&#10;- $END$" toReformat="false" toShortenFQNames="true">
+    <variable name="FEATURE" expression="enum(&quot;YS-&quot;, &quot;IT-&quot;,&quot;ITCORE-&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="FEATURE_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TRANSITION" expression="enum(&quot;&quot;, &quot;#dev-in-progress &quot;,&quot;#dev-done &quot;, &quot;#dev-paused &quot;, &quot;#in-progress &quot;, &quot;#done &quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="UNIT" expression="enum(&quot;m&quot;, &quot;h&quot;, &quot;d&quot;, &quot;w&quot;)" defaultValue="m" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GO" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
