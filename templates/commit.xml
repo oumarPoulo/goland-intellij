@@ -1,5 +1,5 @@
 <templateSet group="commit">
-  <template name="smy" value="$FEATURE$$FEATURE_ID$ $TRANSITION$#time $TIME$$UNIT$&#10;- $END$" toReformat="false" toShortenFQNames="true">
+  <template name="smy" value="$FEATURE$$FEATURE_ID$ $TRANSITION$#time $TIME$$UNIT$&#10;- $END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="FEATURE" expression="enum(&quot;YS-&quot;, &quot;IT-&quot;,&quot;ITCORE-&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FEATURE_ID" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TRANSITION" expression="enum(&quot;&quot;, &quot;#dev-in-progress &quot;,&quot;#dev-done &quot;, &quot;#dev-paused &quot;, &quot;#in-progress &quot;, &quot;#done &quot;)" defaultValue="" alwaysStopAt="true" />
